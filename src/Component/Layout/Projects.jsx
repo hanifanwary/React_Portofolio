@@ -13,13 +13,13 @@ const Projects = () => {
     },
     {
       name: "bookmark-landing-page-master",
-      image: "../../../img/Frontend-Mentor-Bookmark-landing-page-01-18-2025_10_07_AM.png",
+      image: "../../../../img/Frontend-Mentor-Bookmark-landing-page-01-18-2025_10_07_AM.png",
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, fugit.",
       link: "https://hanifanwary.github.io/frontend_mentor_bookmark-landing-page-master/",
     },
     {
       name: "responsift Clipboard landing page",
-      image: "../../../img/Frontend-Mentor-Clipboard-landing-page-01-18-2025_10_01_AM.png",
+      image: "../../../../img/Frontend-Mentor-Clipboard-landing-page-01-18-2025_10_01_AM.png",
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, fugit.",
       link: "https://hanifanwary.github.io/Clipboard-landing-page-/",
     },
