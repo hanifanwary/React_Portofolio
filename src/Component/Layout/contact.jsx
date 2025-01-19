@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import emailjs from "@emailjs/browser";
+import myContactSvg from "../../assets/digital-contract.svg";
 
 const ContactLayout = () => {
   const [formData, setFormData] = useState({
@@ -53,7 +54,7 @@ const ContactLayout = () => {
       {/* Left Side: SVG Animation */}
       <div className="w-full md:w-1/2 flex justify-center items-center mb-10 md:mb-0">
         <img
-          src="../../../img/digital-contract.svg"
+          src={myContactSvg}
           alt="SVG CONTACT"
         />
       </div>

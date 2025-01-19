@@ -1,6 +1,8 @@
 import ParticleJs from '../Element/particlejs/particle';
 import TypingAnimation from '../Element/typing animation';
 import React from 'react';
+import myPicture from '../../assets/HANIF ROMDHON DSC07359 copy 1.jpg'
+
 
 const HomeLayout = () => {
   return (
@@ -9,7 +11,7 @@ const HomeLayout = () => {
       <section id="home" className="min-h-screen text-white  flex items-center justify-center relative z-10">
         <div className="container mx-auto text-center">
           <h1 className="text-5xl md:text-6xl font-bold mb-4">Welcome to My Portfolio</h1>
-          <img src="../../../../img/HANIF ROMDHON DSC07359 copy 1.jpg" alt="IMAGE HANIF ROMDHON ANWARY" loading='lazy' className="w-48 h-48 rounded-full mx-auto object-cover mb-4 shadow-md" />
+          <img src={myPicture} alt="IMAGE HANIF ROMDHON ANWARY" loading='lazy' className="w-48 h-48 rounded-full mx-auto object-cover mb-4 shadow-md" />
           <p className="text-lg md:text-xl mb-6">
             I'm Hanif Romdhon Anwary, a{' '}
             <TypingAnimation />

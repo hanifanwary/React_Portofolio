@@ -1,25 +1,25 @@
 import React from "react";
+import myProject1 from "../../assets/Manage-Landing-Page-Simplify-Team-Collaboration-Productivity-01-18-2025_09_59_AM.png";
+import myProject2 from "../../assets/Frontend-Mentor-Clipboard-landing-page-01-18-2025_10_01_AM.png";
+import myProject3 from "../../assets/Frontend-Mentor-Bookmark-landing-page-01-18-2025_10_07_AM.png";
 
 const Projects = () => {
-
- 
-
   const projects = [
     {
-      name: "Resposive manage-landing-page-master",
-      image: "../../../img/Manage-Landing-Page-Simplify-Team-Collaboration-Productivity-01-18-2025_09_59_AM.png",
+      name: "Responsive Manage Landing Page Master",
+      image: myProject1,
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, fugit.",
       link: "https://hanifanwary.github.io/Frontend_mentor_manage-landing-page-master/",
     },
     {
-      name: "bookmark-landing-page-master",
-      image: "../../../../img/Frontend-Mentor-Bookmark-landing-page-01-18-2025_10_07_AM.png",
+      name: "Bookmark Landing Page Master",
+      image: myProject3,
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, fugit.",
       link: "https://hanifanwary.github.io/frontend_mentor_bookmark-landing-page-master/",
     },
     {
-      name: "responsift Clipboard landing page",
-      image: "../../../../img/Frontend-Mentor-Clipboard-landing-page-01-18-2025_10_01_AM.png",
+      name: "Responsive Clipboard Landing Page",
+      image: myProject2,
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, fugit.",
       link: "https://hanifanwary.github.io/Clipboard-landing-page-/",
     },
@@ -48,7 +48,13 @@ const Projects = () => {
               <div className="absolute inset-0 bg-black bg-opacity-70 flex flex-col justify-center items-center opacity-0 group-hover:opacity-100 transition duration-300">
                 <h3 className="text-xl font-semibold mb-2">{project.name}</h3>
                 <p className="text-center text-sm px-4">{project.description}</p>
-                <a href={project.link} target="_blank" rel="noopener noreferrer">GO TO LINK</a>
+                <a
+                  href={project.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  GO TO LINK
+                </a>
               </div>
             </div>
           ))}
